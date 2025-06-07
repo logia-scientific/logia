@@ -257,7 +257,6 @@ class LogiaUI(QMainWindow):
         self.main_layout.addWidget(self.plot_area_frame)
 
     def apply_stylesheet(self):
-        """Applies a dark, NASA-like stylesheet to the UI."""
         self.setStyleSheet("""
             QMainWindow {
                 background-color: #2b2b2b;
